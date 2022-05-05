@@ -6,6 +6,6 @@ final class CGMathTests: XCTestCase {
         // This is an example of a functional test case.
         // Use XCTAssert and related functions to verify your tests produce the correct
         // results.
-        XCTAssertEqual(CGMath().text, "Hello, World!")
+        //XCTAssertEqual(CGMath().text, "Hello, World!")
     }
 }
