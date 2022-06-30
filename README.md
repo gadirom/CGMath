@@ -1,3 +1,3 @@
 # CGMath
 
-A description of this package.
+Useful vector math functions for 'CG' Swift types.
