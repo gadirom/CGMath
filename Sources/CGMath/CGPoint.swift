@@ -2,6 +2,14 @@ import SwiftUI
 
 public extension CGPoint{
     
+    func median(_ p1: CGPoint, _ p2: CGPoint)->CGPoint{
+        return CGPoint(x: (p1.x+p2.x)/2, y: (p1.y+p2.y)/2)
+    }
+    
+    func distance(_ p1: CGPoint, _ p2: CGPoint)->CGFloat{
+        return sqrt((p1.x-p2.x)*(p1.x-p2.x) + (p1.y-p2.y)*(p1.y-p2.y))
+    }
+    
     func mult(by value: CGFloat) -> CGPoint{
         CGPoint(x: x * value,
                 y: y * value)
