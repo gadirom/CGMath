@@ -186,7 +186,7 @@ public extension CGPoint{
     }
     static func *(lhs: CGPoint, rhs: CGSize) -> CGPoint {
         CGPoint(x: lhs.x * rhs.width,
-                y: lhs.y * rhs.width)
+                y: lhs.y * rhs.height)
     }
     
     static func *(lhs: CGPoint, rhs: CGFloat) -> CGSize {
@@ -199,6 +199,6 @@ public extension CGPoint{
     }
     static func *(lhs: CGPoint, rhs: CGSize) -> CGSize {
         CGSize(width: lhs.x * rhs.width,
-               height: lhs.y * rhs.width)
+               height: lhs.y * rhs.height)
     }
 }
